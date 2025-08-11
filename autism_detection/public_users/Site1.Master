@@ -1,0 +1,49 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Site1.master.cs" Inherits="autism_detection.public_users.Site1" %>
+
+<!DOCTYPE html>
+
+<html>
+<head runat="server">
+    <link rel="shortcut icon" type="image/x-icon" href="../ppuse/assets/img/logo/favicon.png">
+   <%-- <title>Preclinic - Medical & Hospital - Bootstrap 5 Admin Template</title>--%>
+	
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" type="text/css" href="assets/css/bootstrap.min.css">
+	
+	<!-- Feathericon CSS -->
+	<link rel="stylesheet" href="assets/css/feather.css">
+	
+    <!-- Fontawesome CSS -->
+    <link rel="stylesheet" href="assets/plugins/fontawesome/css/fontawesome.min.css">
+    <link rel="stylesheet" href="assets/plugins/fontawesome/css/all.min.css">
+	
+	<!-- Main CSS -->
+    <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+     
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body>
+    <form id="form1" runat="server">
+        <div>
+            <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+            </asp:ContentPlaceHolder>
+        </div>
+    </form>
+    	<!-- /Main Wrapper -->
+	
+	<!-- jQuery -->
+	<script src="assets/js/jquery-3.7.1.min.js" type="a956aae308eff6037d4a2a15-text/javascript"></script>
+	
+	<!-- Bootstrap Core JS -->
+	<script src="assets/js/bootstrap.bundle.min.js" type="a956aae308eff6037d4a2a15-text/javascript"></script>
+	
+	<!-- Feather Js -->
+	<script src="assets/js/feather.min.js" type="a956aae308eff6037d4a2a15-text/javascript"></script>
+	
+	<!-- Custom JS -->
+	<script src="assets/js/app.js" type="a956aae308eff6037d4a2a15-text/javascript"></script>
+	
+<script src="../../cdn-cgi/scripts/7d0fa10a/cloudflare-static/rocket-loader.min.js" data-cf-settings="a956aae308eff6037d4a2a15-|49" defer=""></script>
+</body>
+</html>

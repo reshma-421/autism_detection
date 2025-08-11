@@ -1,0 +1,34 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.12.35707.178
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "autism_detection", "autism_detection\autism_detection.csproj", "{D1E7F104-969C-43ED-B7CA-21B84D86EF88}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BLL_autism", "BLL_autism\BLL_autism.csproj", "{19A4282C-B746-49F5-BDAB-F87491CADF42}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DAL_autism", "DLL_autism\DAL_autism.csproj", "{A7F33A0E-C462-402A-BB6C-2364BA35F89C}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{D1E7F104-969C-43ED-B7CA-21B84D86EF88}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D1E7F104-969C-43ED-B7CA-21B84D86EF88}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D1E7F104-969C-43ED-B7CA-21B84D86EF88}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D1E7F104-969C-43ED-B7CA-21B84D86EF88}.Release|Any CPU.Build.0 = Release|Any CPU
+		{19A4282C-B746-49F5-BDAB-F87491CADF42}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{19A4282C-B746-49F5-BDAB-F87491CADF42}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{19A4282C-B746-49F5-BDAB-F87491CADF42}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{19A4282C-B746-49F5-BDAB-F87491CADF42}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A7F33A0E-C462-402A-BB6C-2364BA35F89C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A7F33A0E-C462-402A-BB6C-2364BA35F89C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A7F33A0E-C462-402A-BB6C-2364BA35F89C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A7F33A0E-C462-402A-BB6C-2364BA35F89C}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

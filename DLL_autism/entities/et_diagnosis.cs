@@ -1,0 +1,15 @@
+﻿using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace DAL_autism.entities
+{
+    public class et_diagnosis
+    {
+        public string diagnosis { get; set; }
+        public string impression { get; set; }
+        public string r_id { get; set; }
+    }
+}
