@@ -1,0 +1,1 @@
+A web-based Autism Detection System built with ASP.NET Web Forms and SQL Server. Uses questionnaire-based screening to assist in early ASD detection. Features secure login, profile management, admin dashboard, and result analysis with a responsive, user-friendly interface.
